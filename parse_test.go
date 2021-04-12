@@ -1,9 +1,10 @@
 package cliargs_test
 
 import (
-	"cliargs"
 	"os"
 	"testing"
+
+	"github.com/chonla/cliargs"
 
 	"github.com/stretchr/testify/assert"
 )

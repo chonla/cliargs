@@ -1,4 +1,4 @@
-module cliargs
+module github.com/chonla/cliargs
 
 go 1.16
 
