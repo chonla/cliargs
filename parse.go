@@ -16,14 +16,6 @@ func Parse() (Cmd, error) {
 
 	argLen := len(os.Args)
 
-	// Command and Subcommand are positional
-	if argLen > 1 {
-		if argLen > 2 {
-			argSubcommand = os.Args[2]
-		}
-		argCommand = os.Args[1]
-	}
-
 	for argIndex := 1; argIndex < argLen; argIndex++ {
 		switch argIndex {
 		case 1:
